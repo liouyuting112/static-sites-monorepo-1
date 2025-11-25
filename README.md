@@ -1,1 +1,0 @@
-# static-sites-monorepo-1

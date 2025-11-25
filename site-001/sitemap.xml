@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>index.html</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>about.html</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>contact.html</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>privacy.html</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <!-- 固定文章分類 (深度 E-E-A-T 內容) -->
+    <url>
+        <loc>misunderstood_animals.html</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>ancient_inventions.html</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>brain_mechanisms.html</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <!-- 每日文章區塊 URL 結構範例 -->
+    <url>
+        <loc>articles/2024-11-23.html</loc>
+        <lastmod>2024-11-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- 建議未來每日文章新增時，依照 YYYY-MM-DD 格式在此增加 URL -->
+</urlset>
