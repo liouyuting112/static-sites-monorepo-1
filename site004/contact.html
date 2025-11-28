@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Happy Tails</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span>Happy Tails</span> 🐾
+            </a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-btn">Home</a>
+                <a href="about.html" class="nav-btn">About</a>
+                <div class="dropdown">
+                    <a href="#" class="nav-btn">Fun Tips ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="articles/toy-selection.html">玩具挑選</a>
+                        <a href="articles/party-time.html">生日派對</a>
+                        <a href="articles/grooming-fun.html">美容時光</a>
+                    </div>
+                </div>
+                <a href="articles/2025-11-28.html" class="nav-btn">Daily</a>
+                <a href="contact.html" class="nav-btn">Contact</a>
+                <a href="privacy.html" class="nav-btn">Privacy</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="card-grid" style="margin-top: 4rem;">
+        <div class="card" style="grid-column: 1 / -1; max-width: 600px; margin: 0 auto;">
+            <h1 style="text-align: center; color: var(--accent); margin-bottom: 2rem;">Let's Chat!</h1>
+            
+            <p style="text-align: center; margin-bottom: 2rem;">不管是想分享派對照片，還是想問怎麼做狗狗蛋糕，都歡迎來信！</p>
+
+            <form onsubmit="event.preventDefault(); alert('Yay! We got your message!');" style="display: flex; flex-direction: column; gap: 1rem;">
+                <input type="text" placeholder="Your Name" style="padding: 1rem; border: 2px solid var(--bg); border-radius: 10px;">
+                <input type="email" placeholder="Your Email" style="padding: 1rem; border: 2px solid var(--bg); border-radius: 10px;">
+                <textarea rows="5" placeholder="Say Hi!" style="padding: 1rem; border: 2px solid var(--bg); border-radius: 10px;"></textarea>
+                <button type="submit" class="nav-btn" style="background: var(--primary); color: white; border: none; padding: 1rem; font-size: 1.1rem; cursor: pointer;">Send Happiness</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Designed with 💖 for Happy Tails.</p>
+        <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 1rem;">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+

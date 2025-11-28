@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Wisdom of Age</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Wisdom.</div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <div class="dropdown">
+                <a href="#">Essays ▾</a>
+                <div class="dropdown-menu">
+                    <a href="articles/letting-go.html">放手的藝術</a>
+                    <a href="articles/silent-love.html">沈默的愛</a>
+                    <a href="articles/legacy.html">生命的傳承</a>
+                </div>
+            </div>
+            <a href="articles/2025-11-28.html">Daily</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+    </header>
+
+    <div class="split-container">
+        <div class="split-left">
+            <img src="https://github.com/liouyuting112/static-sites-monorepo-1/blob/main/shared-assets/site5-contact.webp?raw=true" alt="信紙與鋼筆" loading="lazy">
+            <div class="split-content">
+                <h1>文字的力量。</h1>
+                <p>有時候，寫下來就是一種療癒。如果您願意分享，我會在這裡傾聽。</p>
+            </div>
+        </div>
+        <div class="split-right">
+            <form style="width: 100%; max-width: 500px;" onsubmit="event.preventDefault(); alert('感謝您的來信。');">
+                <div style="margin-bottom: 2rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px;">Name</label>
+                    <input type="text" style="width: 100%; padding: 1rem; border: 1px solid #ccc; background: transparent;">
+                </div>
+                
+                <div style="margin-bottom: 2rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px;">Email</label>
+                    <input type="email" style="width: 100%; padding: 1rem; border: 1px solid #ccc; background: transparent;">
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px;">Words</label>
+                    <textarea rows="6" style="width: 100%; padding: 1rem; border: 1px solid #ccc; background: transparent;"></textarea>
+                </div>
+
+                <button type="submit" class="btn-outline" style="border-color: var(--text-dark); color: var(--text-dark);">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Wisdom of Age. All Rights Reserved.</p>
+        <div style="margin-top: 1rem;">
+            <a href="about.html" style="margin: 0 10px;">About</a>
+            <a href="contact.html" style="margin: 0 10px;">Contact</a>
+            <a href="privacy.html" style="margin: 0 10px;">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+

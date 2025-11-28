@@ -1,0 +1,7 @@
+1. site2-hero.webp: A schnauzer dog wearing glasses sitting on a sofa with an open book, clean bright living room, educational concept --v 6.0
+2. site2-about.webp: A middle-aged asian woman in smart casual clothes writing notes while sitting on floor next to two senior dogs, home office --v 6.0
+3. site2-kidney.webp: Ingredients for dog food on a kitchen counter: cooked chicken breast, egg whites, and white rice, clean composition --v 6.0
+4. site2-heart.webp: A veterinary stethoscope lying on a wooden table next to a sleeping dog in background, shallow depth of field --v 6.0
+5. site2-dental.webp: Close up of a person using a finger toothbrush to gently clean a dog's teeth, educational angle --v 6.0
+6. site2-ccd.webp: An old dog wandering in a living room at night with dim lighting, looking confused, moody atmosphere --v 6.0
+

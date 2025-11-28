@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡 - Paws & Soul</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-wrapper">
+            <a href="index.html" class="logo">Paws & Soul</a>
+            <div class="burger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li class="dropdown">
+                    <a>照護誌 ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="articles/pain-signals.html">沈默的痛覺</a>
+                        <a href="articles/sleep-care.html">安穩的睡眠</a>
+                        <a href="articles/dental-care.html">口腔護理</a>
+                    </div>
+                </li>
+                <li><a href="articles/2025-11-28.html">每日靈感</a></li>
+                <li><a href="contact.html">聯絡</a></li>
+                <li><a href="privacy.html">隱私</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container single-article">
+        <h1 style="font-family: var(--font-display); text-align: center; margin-bottom: 3rem;">寫信給我們</h1>
+        
+        <div style="background: #fff; padding: 2rem; border: 1px solid #f0f0f0;">
+            <p style="text-align: center; margin-bottom: 2rem;">如果你想分享你的故事，或者需要一點照護上的建議。</p>
+            <form style="display: flex; flex-direction: column; gap: 1.5rem;" onsubmit="event.preventDefault(); alert('謝謝您的來信，我們收到了。');">
+                <input type="text" placeholder="你的名字" required style="padding: 1rem; border: 1px solid #ddd; background: #fafafa;">
+                <input type="email" placeholder="Email" required style="padding: 1rem; border: 1px solid #ddd; background: #fafafa;">
+                <textarea rows="6" placeholder="你想說的話..." required style="padding: 1rem; border: 1px solid #ddd; background: #fafafa;"></textarea>
+                <button type="submit" style="padding: 1rem 3rem; background: var(--primary); color: white; border: none; cursor: pointer; align-self: center; letter-spacing: 2px;">SEND</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-nav">
+            <a href="about.html">關於我們</a>
+            <a href="contact.html">聯絡</a>
+            <a href="privacy.html">隱私權</a>
+        </div>
+        <p>Copyright © 2023 Paws & Soul. Designed with Love.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,354 @@
+/* Site 3: Elegant Dark/Gold Theme */
+:root {
+    --bg-dark: #121212;
+    --bg-card: #1e1e1e;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --gold: #d4af37;
+    --gold-hover: #f1c40f;
+    --border: #333333;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: 'Playfair Display', Georgia, serif; /* Serif for elegance */
+    margin: 0;
+    line-height: 1.8;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    color: var(--gold);
+    letter-spacing: 1px;
+}
+
+a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--gold);
+}
+
+/* Header */
+header {
+    background-color: rgba(18, 18, 18, 0.95);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-style: italic;
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif; /* Sans-serif for UI */
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-card);
+    min-width: 220px;
+    border: 1px solid var(--border);
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 120%; /* Slight animation effect */
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.dropdown-menu a:last-child {
+    border: none;
+}
+
+.dropdown-menu a:hover {
+    background: #2a2a2a;
+    color: var(--gold);
+}
+
+/* Hamburger */
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    color: var(--gold);
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    height: 60vh;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 2rem;
+    border: 1px solid var(--gold);
+    background: rgba(30, 30, 30, 0.6);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0 0 1rem;
+}
+
+/* Layout */
+.wrapper {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.section-head {
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.section-head::after {
+    content: "✦";
+    display: block;
+    color: var(--gold);
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* Daily List - Elegant Typography */
+.daily-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.daily-list li {
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 0;
+}
+
+.daily-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.daily-list span.date {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+/* Fixed Articles - Masonry-ish Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: var(--gold);
+}
+
+.card-img-wrapper {
+    height: 250px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: scale 0.4s;
+}
+
+.card:hover img {
+    scale: 1.1;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.read-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    border: 1px solid var(--gold);
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.read-btn:hover {
+    background: var(--gold);
+    color: var(--bg-dark);
+}
+
+/* Article Page */
+.article-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+
+.article-content p {
+    margin-bottom: 2rem;
+}
+
+.article-content strong {
+    color: var(--white);
+}
+
+.article-content img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    margin: 2rem 0;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid var(--border);
+    margin-top: 5rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 70%;
+        background: var(--bg-card);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s ease;
+        z-index: 1001;
+        box-shadow: -10px 0 30px rgba(0,0,0,0.8);
+    }
+    
+    .nav-links.active {
+        right: 0;
+    }
+    
+    .dropdown-menu {
+        position: static;
+        transform: none;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+        padding-left: 20px;
+        text-align: center;
+    }
+    
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Ensure images are not cropped on mobile */
+    .card-img-wrapper, .article-content img {
+        height: auto !important;
+    }
+}

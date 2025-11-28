@@ -1,0 +1,5 @@
+1. site5-hero.webp: Polaroid style photo of a happy senior dog smiling with tongue out, pastel background, cute and heartwarming --v 6.0
+2. site5-journal.webp: A handwritten journal open on a desk with a pen and a dog sleeping in the background, cozy atmosphere --v 6.0
+3. site5-paw.webp: A clay paw print ornament hanging on a wall, soft lighting, sentimental value --v 6.0
+4. site5-photo.webp: A vintage camera sitting on a picnic blanket with a dog in the blurred background, outdoor park setting --v 6.0
+

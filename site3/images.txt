@@ -1,0 +1,5 @@
+1. site3-hero.webp: Artistic silhouette of a senior dog looking out a window at dusk, emotional atmosphere, black and white photography, high contrast --v 6.0
+2. site3-grief.webp: A person walking alone on a beach at sunset with a leash in hand but no dog, symbolizing loss, melancholic but beautiful --v 6.0
+3. site3-scale.webp: A notepad with a pen resting on a wooden table, warm light, focus on the concept of journaling or assessment --v 6.0
+4. site3-hospice.webp: A comfortable orthopedic dog bed with soft blankets and medical supplies neatly arranged on a side table, peaceful home setting --v 6.0
+

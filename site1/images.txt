@@ -1,0 +1,9 @@
+1. site1-hero.webp: Old golden retriever sleeping peacefully on a rug in a sunlit living room, warm atmosphere, photorealistic, high detail --v 6.0
+2. site1-about.webp: A friendly asian male veterinarian assistant in blue scrubs petting an elderly beagle dog, smiling, authentic candid shot, vet clinic background --v 6.0
+3. site1-joint.webp: Close up of a veterinarian's hands gently palpating the knee joint of a senior dog, clinical but warm setting, realistic photography --v 6.0
+4. site1-harness.webp: An elderly dog wearing a support harness walking slowly on grass in a park, side view, natural lighting, realistic --v 6.0
+5. site1-floor.webp: Indoor shot of a living room with yoga mats arranged on the floor for dog safety, an old dog standing stably on the mat, home interior --v 6.0
+6. site1-sun.webp: An old dog lying on a balcony floor basking in morning sunlight, peaceful expression, close up on face --v 6.0
+7. site1-deaf.webp: A person clapping hands behind an old dog but the dog does not react, illustrating hearing loss, home setting --v 6.0
+8. site1-massage.webp: Human hands gently massaging the spine of a dog, close up on hands and fur, relaxing atmosphere --v 6.0
+9. logo-icon.webp: Simple vector icon of a dog paw with a heart, warm brown color, minimal design, white background --v 6.0

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我們 - 老犬日報</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Old Dog Gazette</a>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首頁</a></li>
+                <li><a href="about.html" class="nav-link">關於我們</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">照護專題 ▾</a>
+                    <div class="dropdown-content">
+                        <a href="articles/weak-legs.html">後腿無力</a>
+                        <a href="articles/vision-loss.html">視力退化</a>
+                        <a href="articles/appetite.html">食慾改變</a>
+                    </div>
+                </li>
+                <li><a href="articles/2025-11-28.html" class="nav-link">每日精選文章</a></li>
+                <li><a href="contact.html" class="nav-link">聯絡我們</a></li>
+                <li><a href="privacy.html" class="nav-link">隱私政策</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content" style="grid-column: span 12; max-width: 800px; margin: 0 auto;">
+            <h1>聯絡我們</h1>
+            <p>有關於老犬照護的問題，或者只是想分享你家毛孩的照片？我們隨時歡迎來信。不過因為平日還要照顧「爺爺」和工作，回信可能會慢個一兩天，請見諒。</p>
+            
+            <div style="background-color: var(--white); padding: 2rem; border: 1px solid #ddd; margin-top: 2rem;">
+                <form action="#" method="post" onsubmit="event.preventDefault(); alert('感謝您的來信！我們會盡快回覆。');">
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">您的稱呼</label>
+                        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.8rem; border: 1px solid #ccc; font-family: inherit;">
+                    </div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">電子郵件</label>
+                        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.8rem; border: 1px solid #ccc; font-family: inherit;">
+                    </div>
+
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">主旨</label>
+                        <select id="subject" name="subject" style="width: 100%; padding: 0.8rem; border: 1px solid #ccc; font-family: inherit;">
+                            <option value="story">分享照護故事</option>
+                            <option value="question">照護問題諮詢</option>
+                            <option value="collaboration">合作邀約</option>
+                            <option value="other">其他</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">訊息內容</label>
+                        <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 0.8rem; border: 1px solid #ccc; font-family: inherit;"></textarea>
+                    </div>
+
+                    <button type="submit" style="background-color: var(--primary-color); color: white; border: none; padding: 1rem 2rem; font-weight: 700; cursor: pointer; transition: background 0.3s;">發送訊息</button>
+                </form>
+            </div>
+
+            <div style="margin-top: 3rem; text-align: center;">
+                <h3>其他聯絡方式</h3>
+                <p>Email: contact@olddoggazette.com</p>
+                <p>地址: (僅收信件) 123 Dogwood Lane, Petville, CA 90210</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">關於我們</a>
+            <a href="contact.html">聯絡我們</a>
+            <a href="privacy.html">隱私政策</a>
+        </div>
+        <p>&copy; 2023 老犬日報 Old Dog Gazette. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+

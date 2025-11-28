@@ -1,0 +1,176 @@
+Image Generation List
+All images should be realistic photography style, high quality, DSLR, shallow depth of field where appropriate.
+
+--- Site 1 (Old Dog Gazette) ---
+1. site1-hero.webp
+   Usage: Homepage Hero
+   Prompt: An elderly Golden Retriever wearing reading glasses, resting comfortably on a window seat bathed in warm afternoon sunlight. Cozy, magazine editorial style.
+
+2. site1-legs.webp
+   Usage: Article (Weak Legs)
+   Prompt: Close up of an old dog's hind legs standing on a yoga mat, slightly trembling, soft lighting, focus on the paws and texture of the mat.
+
+3. site1-eye.webp
+   Usage: Article (Vision Loss)
+   Prompt: Close up portrait of an old dog with cloudy eyes (cataracts), looking gently into the distance, soft focus background.
+
+4. site1-food.webp
+   Usage: Article (Appetite)
+   Prompt: An elderly dog turning its head away from a bowl of food, expression of disinterest, warm kitchen background.
+
+5. site1-daily1.webp
+   Usage: Daily (Dreaming)
+   Prompt: A dog sleeping on a side, legs blurred as if running, cute sleeping face.
+
+6. site1-daily2.webp
+   Usage: Daily (Spinning)
+   Prompt: A dog spinning in a circle on grass, motion blur to show movement, happy expression.
+
+7. site1-daily3.webp
+   Usage: Daily (Tail)
+   Prompt: Rear view of a dog wagging its tail, blurred tail to show motion, focus on the rear.
+
+8. site1-about.webp
+   Usage: About Page
+   Prompt: A woman (Sarah) kneeling in a park hugging an old Beagle, autumn leaves in background, warm emotional connection.
+
+9. site1-editor.webp
+   Usage: Sidebar Author
+   Prompt: Portrait of a woman holding an old dog, smiling, professional yet warm.
+
+--- Site 2 (Paws & Soul) ---
+10. site2-hero.webp
+    Usage: Homepage Hero
+    Prompt: Extreme close up of a woman hugging a white-faced old Labrador, cheek to cheek, eyes closed, peaceful and emotional.
+
+11. site2-pain.webp
+    Usage: Article (Pain)
+    Prompt: An old dog resting its chin on a human hand, looking up with tired but loving eyes, muted colors.
+
+12. site2-sleep.webp
+    Usage: Article (Sleep)
+    Prompt: An old dog curled up in a very plush, orthopedic dog bed, wrapped in a soft blanket, looking very cozy.
+
+13. site2-dental.webp
+    Usage: Article (Dental)
+    Prompt: A person gently using a piece of gauze to wipe an old dog's teeth, close up, gentle interaction.
+
+14. site2-daily1.webp
+    Usage: Daily (Head Tilt)
+    Prompt: A dog tilting its head to the side, looking curious, studio lighting, clean background.
+
+15. site2-daily2.webp
+    Usage: Daily (Shaking)
+    Prompt: A dog shaking off water, water droplets flying in the air, freeze motion, dynamic lighting.
+
+16. site2-daily3.webp
+    Usage: Daily (Mirror)
+    Prompt: A dog looking at itself in a floor mirror, puzzled expression.
+
+17. site2-about.webp
+    Usage: About Page
+    Prompt: A woman sitting on grass reading a book to an old dog lying beside her, peaceful garden setting.
+
+--- Site 3 (Senior Dog Life) ---
+18. site3-hero.webp
+    Usage: Homepage Hero
+    Prompt: An old dog standing on a mountain peak looking at the view, wearing a harness, epic landscape photography.
+
+19. site3-outdoor.webp
+    Usage: Article (Outdoor)
+    Prompt: An old dog sitting in a red camping wagon (pet stroller) wearing dog goggles, outdoors, adventure vibe.
+
+20. site3-brain.webp
+    Usage: Article (Brain Game)
+    Prompt: An old dog focused on a puzzle toy (snuffle mat), searching for treats, close up on nose.
+
+21. site3-swim.webp
+    Usage: Article (Swimming)
+    Prompt: An old dog wearing a life jacket swimming in a hydrotherapy pool, water level view.
+
+22. site3-daily1.webp
+    Usage: Daily (Head on foot)
+    Prompt: A dog resting its heavy head on a person's foot wearing socks, POV from above.
+
+23. site3-daily2.webp
+    Usage: Daily (Yawn)
+    Prompt: A dog yawning widely, showing teeth, funny expression, close up.
+
+24. site3-daily3.webp
+    Usage: Daily (Licking nose)
+    Prompt: A dog licking its nose with tongue out, close up, macro photography.
+
+25. site3-about.webp
+    Usage: About Page
+    Prompt: A man (Max) and an old Husky high five (paw five) on a hiking trail.
+
+--- Site 4 (Happy Tails) ---
+26. site4-hero.webp
+    Usage: Homepage Hero
+    Prompt: An old Golden Retriever wearing a colorful birthday party hat, smiling with tongue out, confetti in background.
+
+27. site4-toy.webp
+    Usage: Article (Toys)
+    Prompt: A collection of soft plush dog toys on a rug, bright colors, an old dog playing with one.
+
+28. site4-party.webp
+    Usage: Article (Party)
+    Prompt: An old dog eating a dog-friendly cake, cream on nose, messy and cute.
+
+29. site4-groom.webp
+    Usage: Article (Grooming)
+    Prompt: An old dog enjoying being brushed, eyes closed in ecstasy, soft lighting.
+
+30. site4-daily1.webp
+    Usage: Daily (Dreaming)
+    Prompt: Same topic as site 1 but different angle: Dog sleeping on back, legs in air.
+
+31. site4-daily2.webp
+    Usage: Daily (Spinning)
+    Prompt: Dog chasing its tail, blur, playful.
+
+32. site4-daily3.webp
+    Usage: Daily (Tail)
+    Prompt: Close up of a very fluffy tail wagging, motion blur.
+
+33. site4-about.webp
+    Usage: About Page
+    Prompt: A woman (Joy) wearing colorful clothes holding three small old dogs, festive atmosphere.
+
+--- Site 5 (Wisdom of Age) ---
+34. site5-hero.webp
+    Usage: Homepage Hero
+    Prompt: Black and white portrait of a very old dog's face, detailed texture of fur and whiskers, deep soulful eyes.
+
+35. site5-letgo.webp
+    Usage: Article (Letting Go)
+    Prompt: An elderly hand holding a dog's paw, soft focus, highly emotional and artistic.
+
+36. site5-love.webp
+    Usage: Article (Silent Love)
+    Prompt: An old dog sleeping in a sunbeam on a wooden floor, high contrast light and shadow, quiet mood.
+
+37. site5-legacy.webp
+    Usage: Article (Legacy)
+    Prompt: A puppy looking up at an old dog, silhouette style against a sunset.
+
+38. site5-daily1.webp
+    Usage: Daily (Dreaming)
+    Prompt: Black and white photo of a sleeping dog, peaceful.
+
+39. site5-daily2.webp
+    Usage: Daily (Spinning)
+    Prompt: Abstract motion blur of a dog turning, artistic.
+
+40. site5-daily3.webp
+    Usage: Daily (Tail)
+    Prompt: Silhouette of a dog wagging tail against a light window.
+
+41. site5-about.webp
+    Usage: About Page
+    Prompt: An elderly man sitting in a leather chair in a library study, looking thoughtful, with a photo of a dog on the desk.
+
+42. site5-contact.webp
+    Usage: Contact Page
+    Prompt: A fountain pen and paper on a wooden desk, moody lighting.
+

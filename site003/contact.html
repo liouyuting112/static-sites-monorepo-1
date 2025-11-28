@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Senior Dog Life</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Senior Dog Life</div>
+        <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">TOPICS ▾</a>
+                    <div class="dropdown-content">
+                        <a href="articles/outdoor-safety.html">戶外安全</a>
+                        <a href="articles/mental-game.html">腦力激盪</a>
+                        <a href="articles/swimming.html">水中運動</a>
+                    </div>
+                </li>
+                <li><a href="articles/2025-11-28.html" class="nav-link">DAILY</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+                <li><a href="privacy.html" class="nav-link">PRIVACY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="article-container">
+        <h1 style="font-family: var(--font-heading); font-size: 3rem; margin-bottom: 2rem; color: var(--accent-color);">GET IN TOUCH</h1>
+        
+        <p style="margin-bottom: 2rem; font-size: 1.2rem;">Got a cool trail recommendation? Or just want to show off your senior dog's adventure photos? Hit us up.</p>
+
+        <form style="background-color: var(--secondary-bg); padding: 3rem; border: 1px solid #444;" onsubmit="event.preventDefault(); alert('Message sent! Now go outside.');">
+            <div style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: bold;">NAME</label>
+                <input type="text" style="width: 100%; padding: 1rem; background: #1a1a1a; border: 1px solid #555; color: #fff;">
+            </div>
+            
+            <div style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: bold;">EMAIL</label>
+                <input type="email" style="width: 100%; padding: 1rem; background: #1a1a1a; border: 1px solid #555; color: #fff;">
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: bold;">MESSAGE</label>
+                <textarea rows="5" style="width: 100%; padding: 1rem; background: #1a1a1a; border: 1px solid #555; color: #fff;"></textarea>
+            </div>
+
+            <button type="submit" class="btn">SEND MESSAGE</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Senior Dog Life. Keep Exploring.</p>
+        <div style="margin-top: 1rem;">
+            <a href="about.html" style="margin: 0 10px;">About</a>
+            <a href="contact.html" style="margin: 0 10px;">Contact</a>
+            <a href="privacy.html" style="margin: 0 10px;">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+

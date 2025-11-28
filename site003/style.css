@@ -1,0 +1,355 @@
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    --accent-color: #FFD700; /* Gold */
+    --secondary-bg: #2a2a2a;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header */
+header {
+    background-color: rgba(26, 26, 26, 0.95);
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    text-transform: uppercase;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+/* Mobile Menu */
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 30px;
+    height: 3px;
+    background-color: var(--text-color);
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+/* Hero Section (Full Screen) */
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://github.com/liouyuting112/static-sites-monorepo-1/blob/main/shared-assets/site3-hero.webp?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+/* Feature Sections (Alternating) */
+.feature-section {
+    display: flex;
+    min-height: 80vh;
+}
+
+.feature-img {
+    flex: 1;
+    position: relative;
+}
+
+.feature-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature-text {
+    flex: 1;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondary-bg);
+}
+
+.feature-text h2 {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent-color);
+}
+
+.feature-text.reverse {
+    order: -1;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--secondary-bg);
+    min-width: 200px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #444;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Daily Grid */
+.daily-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background-color: #000;
+}
+
+.daily-item {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    group: hover;
+}
+
+.daily-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+    opacity: 0.7;
+}
+
+.daily-item:hover img {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.daily-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(transparent, #000);
+}
+
+.daily-date {
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.daily-title {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Article Page */
+.article-container {
+    max-width: 900px;
+    margin: 8rem auto;
+    padding: 0 2rem;
+}
+
+.article-content h2 {
+    color: var(--accent-color);
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.highlight-text {
+    border-left: 5px solid var(--accent-color);
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 2rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-top: 2px solid var(--accent-color);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .feature-section {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .feature-text.reverse {
+        order: 0;
+    }
+    
+    .feature-img, .feature-text {
+        flex: none;
+        width: 100%;
+    }
+    
+    .feature-img {
+        height: 300px;
+    }
+
+    .daily-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .burger {
+        display: block;
+        z-index: 1001;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: 0.3s;
+    }
+
+    .nav-menu.active {
+        transform: translateX(0);
+    }
+    
+    .dropdown-content {
+        position: static;
+        background-color: transparent;
+        box-shadow: none;
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+    
+    .dropdown.active .dropdown-content {
+        display: block;
+    }
+
+    img {
+        height: auto !important;
+        object-fit: contain !important;
+    }
+    
+    /* Override for feature/daily images to keep them cover on mobile for design */
+    .feature-img img, .daily-item img {
+        height: 100% !important; 
+        object-fit: cover !important;
+    }
+    
+    .feature-img {
+         height: auto;
+         aspect-ratio: 16/9;
+    }
+}
+
